@@ -1,9 +1,9 @@
-﻿# Enterprise Stored Procedure â†’ dbt Migration Framework
+﻿# Enterprise Stored Procedure to dbt Migration Framework
 
 A practical framework for converting legacy, chained-update stored procedures into deterministic dbt Core models with declarative DAG dependencies (Snowflake-first).
 
 ## Whatâ€™s inside
-- **Whitepaper draft**: SP â†’ dbt conversion example (HEDIS gap engine style)
+- **Whitepaper draft**: dbt conversion example (HEDIS gap engine style)
 - **Case study**: Chained updates refactored into event sets + computed flags
 - **Patterns**: Incremental merge, dedupe, set-based refactors, handling non-DAG logic
 
